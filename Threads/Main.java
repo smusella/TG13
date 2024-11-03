@@ -25,7 +25,8 @@ public class Main {
         } 
     } 
         System.out.println("Fertig");
-    */
+    
+*/
 
     MyThread thread2 = new MyThread(); //Ezeugt zweite Thread
     thread2.start(); // startet Thread
