@@ -3,7 +3,7 @@ package HR_Thread.Threads_Vererbung;
 public class Ampel_Aufgabe implements Runnable{
 
 
-    private final int Rot = 1;
+    private final int Rot = 1;  //Zustànde deklariert
     private final int RotGelb = 2;
     private final int Gelb = 3;
     private final int Gruen = 4;
@@ -14,7 +14,7 @@ public class Ampel_Aufgabe implements Runnable{
     int wait;
     Thread t;
 
-    public Ampel_Aufgabe(String name,int wait) {
+    public Ampel_Aufgabe(String name,int wait) { //konstruktor
         
         this.name = name;
         this.wait = wait; 
