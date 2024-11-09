@@ -23,6 +23,7 @@ public class Stacks {
        
        System.out.println(Einkaufliste.pop());//lòscht letztes Element und mit syso gibt den Wert an
 
+       
     }
     
 }

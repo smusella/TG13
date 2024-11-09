@@ -20,8 +20,6 @@ public class Array_List {
 
         primzahlen.remove(2);  //entfernt Eintrag mit Index 2 (indem Fall 5)
         primzahlen.remove(Integer.valueOf(1));// entfernt Eintrag mit den Wert 1 wenn man nicht weiss welches Index die zahl hat 
-        
-
 
         for(Integer i : primzahlen){
             System.out.println(i);
