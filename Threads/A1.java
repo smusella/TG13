@@ -66,8 +66,7 @@ public class A1 implements Runnable {
 
             index = (index + 1) % ipAddresses.size(); 
 
- 
-
+            
             // Warte 5 Sekunden 
 
             try { 
@@ -79,13 +78,9 @@ public class A1 implements Runnable {
                 System.err.println("Thread wurde unterbrochen: " + e.getMessage()); 
 
             } 
-
         } 
 
-    } 
-
- 
-
+    }
     // e) main()-Methode zum Testen des Programms 
 
     public static void main(String[] args) { 
