@@ -1,6 +1,6 @@
 import java.util.HashSet;
 import java.util.Set;
-import java.util.TreeSet;
+
 
 public class Sets2 {
     public static void main(String[] args) {
@@ -23,10 +23,6 @@ public class Sets2 {
         for (Schueler s : schueler) {
             System.out.println(s.getName());
         }
-
-
-
-
 
     }
 }
