@@ -59,11 +59,5 @@ public class K2 {
 
  System.out.println("Alphabet mit Ziffern: " + alphabetMitZiffern); 
 
- 
-
- 
-
- 
-
  } 
 }

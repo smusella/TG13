@@ -37,7 +37,6 @@ System.out.println(str);
 
  } 
 
- 
 
 System.out.println("Automarken nur in Singen: "); 
 
@@ -48,10 +47,7 @@ System.out.println("Automarken nur in Singen: ");
  for (String str : differenz) { 
 
  System.out.println(str); 
-
 } 
-
- 
 
  System.out.println("Alle Automarken: "); 
 
@@ -62,8 +58,6 @@ System.out.println("Automarken nur in Singen: ");
  for (String str : union) { 
 
   System.out.println(str); 
-
  } 
-
 } 
 }
